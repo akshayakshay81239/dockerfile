@@ -1,10 +1,10 @@
-Class Hello{
-public static void main[string[] args]{
+class Hello{
+public static void main(String[] args){
 if (args.length>0){
 String name =args[0];
-System.out.println("welcom f devops enigner" + name);
+System.out.println("Hello" +name);
 }else{
-System.out.println("Name not givan");
+System.out.println("Name not given");
 }
 }
 }
